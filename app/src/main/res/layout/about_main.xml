@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                xmlns:tools="http://schemas.android.com/tools"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+	<TextView
+		android:id="@+id/textViewAbout"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:layout_alignParentTop="true"
+		android:layout_centerHorizontal="true"
+		android:paddingTop="50dp"
+		android:text="@string/about_title"
+		android:textSize="24sp"/>
+
+	<TextView
+		android:id="@+id/thinks"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:layout_below="@+id/textViewAbout"
+		android:layout_centerHorizontal="true"
+		android:layout_marginTop="31dp"
+		android:text="@string/thinks"/>
+
+	<TextView
+		android:id="@+id/website"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:layout_below="@+id/thinks"
+		android:layout_centerHorizontal="true"
+		android:layout_marginTop="12dp"
+		android:autoLink="web"
+		android:text="@string/website"
+		android:textSize="12sp"/>
+
+	<TextView
+		android:id="@+id/sign"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:layout_below="@+id/website"
+		android:layout_centerHorizontal="true"
+		android:layout_marginTop="43dp"
+		android:paddingBottom="50dp"
+		android:text="@string/sign"/>
+</RelativeLayout>

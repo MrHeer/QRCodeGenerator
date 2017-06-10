@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">二维码生成器</string>
+    <string name="action_about">关于</string>
+    <string name="btnGenerate">生成</string>
+    <string name="QRCodeArea">二维码生成区域</string>
+    <string name="contents">内容</string>
+    <string name="textview">请输入内容</string>
+    <string name="about_title">关于</string>
+    <string name="sign">何二制作</string>
+    <string name="website">https://github.com/SumiMakito/AwesomeQRCode</string>
+    <string name="thinks">感谢开源项目：AwesomeQRCode</string>
+</resources>
