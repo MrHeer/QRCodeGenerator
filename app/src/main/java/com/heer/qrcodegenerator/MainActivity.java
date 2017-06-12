@@ -54,7 +54,7 @@ public class MainActivity extends AppCompatActivity {
         qr_3_background = new AwesomeQRCode.Renderer()
                 .dotScale(1.0f)
                 .contents("LCY, I love you.    —MrHeer")
-                .size(1000).margin(20).render();
+                .size(1000).margin(0).render();
 
 
         // Create the adapter that will return a fragment for each of the three
