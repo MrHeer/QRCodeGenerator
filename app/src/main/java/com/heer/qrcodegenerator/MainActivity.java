@@ -207,7 +207,7 @@ public class MainActivity extends AppCompatActivity {
         new AwesomeQRCode.Renderer()
                 .dotScale(dataDotScale)
                 .contents(contents)
-                .size(1000).margin(20)
+                .size(1000).margin(0)
                 .background(background)
                 .renderAsync(new AwesomeQRCode.Callback() {
                     @Override
